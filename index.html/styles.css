@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+body, h2 {
+    color: white;
+}
+ul, ol {
+    text-align: left;
+}
+body {
+    background-image: url('background.jpg');
+    overflow: scroll;
+}       
+th, td {
+    background-color: #ffffff;
+    color: black
+}
+a {
+    color: rgb(140, 195, 247);
+    text-align: center;
+}
+.kuesus {
+    align-items: center;
+}
+img {
+    height:15px;
+    width:15px;
+}
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    height: 240px; 
+    opacity: 0.95;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+@media screen and (max-width: 900px) {
+    .column {
+      flex: 60%;
+    }
+  }
+
+@media screen and (max-width: 270px) {
+    .column {
+      height: 310px;
+    }
+  }
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(31, 71, 129);
+    opacity: 0.85;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(9, 17, 134);
+    color: white;
+  }
